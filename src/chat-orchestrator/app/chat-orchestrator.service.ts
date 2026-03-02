@@ -175,7 +175,7 @@ export class ChatOrchestratorService {
           tipo: media.kind,
           direction: params.direction,
           extension: ext,
-          basePrefix: 'crm',
+          basePrefix: 'bot-demo-media',
         });
 
         const uploaded = await this.cloudStorageDoSpaces.uploadBuffer({
